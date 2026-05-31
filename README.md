@@ -1,59 +1,120 @@
-# <div align="center">My Portfolio</div>
-<img src="public/Readme_Banner.png" />
-
-## About the Project
-
-This portfolio is built with [Next.js](https://nextjs.org/), styled using [Tailwind CSS](https://tailwindcss.com/), and incorporates components from [Aceternity UI](https://Aceternity-ui.com/)
-
-## Features
-
-- 🌐 **Single Page Application**: Seamless navigation and fast load times.
-- 🎨 **Custom Tailwind CSS Styling**: Fully responsive and customizable design.
-- 🧩 **Aceternity UI Components**: Beautifully designed UI components for enhanced user experience.
-- 🚀 **Netlify Deployment**: Fast, secure, and reliable hosting with continuous deployment.
-
-## Tech Stack
+# Mohammed Abed — Portfolio
 
 <div align="center">
-  
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Accternity UI](https://img.shields.io/badge/Accternity%20UI-4B32C3?style=for-the-badge&logo=ui&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer%20Motion-4B32C3?style=for-the-badge&logo=ui&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-%2300C7B7.svg?style=for-the-badge&logo=netlify&logoColor=white)
+
+![Portfolio Hero Preview](./public/readme-banner.svg)
+
+**Full-Stack Software Engineer · Generative AI · Cloud · DevOps**
+
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
+[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://www.netlify.com/)
 
 </div>
 
+---
+
+A modern, animation-rich portfolio showcasing full-stack engineering, generative AI expertise, cloud architecture, and DevOps capabilities — built from the ground up with React, Vite, and custom UI components.
+
+## Highlights
+
+- **Generative AI focus** — Dedicated expertise section highlighting LLM integrations, chatbots, RAG, and AI-powered SaaS
+- **Full-stack showcase** — React, Next.js, TypeScript, APIs, and production-grade dashboards
+- **Cloud & DevOps** — Docker, CI/CD, Netlify/Vercel deployment, and enterprise integration experience
+- **Custom animated UI** — Aurora backgrounds, glass morphism cards, marquee tech strip, scroll-triggered reveals, and interactive project filters
+- **Project portfolio** — Six live projects including AI Chatbot, Article Summarizer, eCommerce dashboards, and marketing sites
+
+## Tech Stack
+
+| Layer | Technologies |
+|-------|-------------|
+| **Frontend** | React 18, TypeScript, Tailwind CSS, Framer Motion, Lucide Icons |
+| **Build** | Vite 6, ESLint, PostCSS |
+| **AI / Gen AI** | OpenAI GPT-4, AI Chatbots, Prompt Engineering, SaaS AI Apps |
+| **Cloud / DevOps** | Docker, Netlify, Vercel, Cloudinary, Appwrite, CI/CD |
+| **Backend** | Node.js, REST APIs, Appwrite, Syncfusion |
+
 ## Project Structure
+
 ```bash
-├───app
-├───components
-│   └───accternity
-├───data
-├───public
-└───utils
+Next-Portfolio/
+├── public/                  # Static assets (project screenshots, tech icons)
+├── src/
+│   ├── components/
+│   │   ├── layout/          # Navbar, Footer
+│   │   ├── sections/        # Hero, About, Expertise, Projects, etc.
+│   │   └── ui/              # Reusable animated primitives
+│   ├── data/                # Portfolio content (projects, skills, experience)
+│   ├── lib/                 # Utilities (cn helper)
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── index.html
+├── vite.config.ts
+├── tailwind.config.js
+└── netlify.toml
 ```
 
-## Installation
+## Sections
 
-To run this project locally, follow these steps:
+| Section | Description |
+|---------|-------------|
+| **Hero** | Animated gradient background with rotating specialty tags |
+| **About** | Bento-style cards highlighting philosophy and approach |
+| **Expertise** | Four pillars — Full-Stack, Gen AI, Cloud, DevOps |
+| **Tech Stack** | Categorized skills + infinite marquee of technologies |
+| **Projects** | Filterable project grid with live demo links |
+| **Experience** | Timeline of professional roles |
+| **Process** | Three-phase delivery methodology |
+| **Contact** | CTA with email and social links |
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/mabedd/Next-Portfolio.git
+## Getting Started
 
-2. **Navigate to the project directory**
-   ```bash
-   cd Next-Portfolio
+### Prerequisites
 
-3. **Install Dependencies**
-   ```bash
-   npm install
+- Node.js 18+
+- npm or pnpm
 
-4. **Start the App**
-   ```bash
-   npm run dev
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/mabedd/Next-Portfolio.git
+
+# Navigate to the project
+cd Next-Portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+## Deployment
+
+Configured for [Netlify](https://www.netlify.com/) with SPA redirects in `netlify.toml`. Push to your connected branch for automatic deployment.
+
+## Contact
+
+- **Email:** [mohammed.o.abed@outlook.com](mailto:mohammed.o.abed@outlook.com)
+- **GitHub:** [@mabedd](https://github.com/mabedd)
+- **LinkedIn:** [Mohammed Abed](https://www.linkedin.com/in/mohammed-abed-itil/)
+
+---
 
 <div align="center">
-  <p>Made with ❤️ by Mohammed</p>
+  <p>Built with precision by Mohammed Abed</p>
 </div>

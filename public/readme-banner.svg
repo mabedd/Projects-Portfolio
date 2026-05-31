@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="50%" stop-color="#0a0f1e"/>
+      <stop offset="100%" stop-color="#050816"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="30%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="70%" cy="60%" r="35%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.6"/>
+
+  <!-- Nav bar mock -->
+  <rect x="80" y="40" width="1040" height="52" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="100" y="54" width="36" height="24" rx="8" fill="url(#accent)"/>
+  <text x="148" y="70" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="14" font-weight="600">Mohammed Abed</text>
+  <rect x="880" y="56" width="100" height="20" rx="10" fill="url(#accent)"/>
+
+  <!-- Hero badge -->
+  <rect x="380" y="140" width="440" height="32" rx="16" fill="rgba(34,211,238,0.1)" stroke="rgba(34,211,238,0.3)"/>
+  <text x="600" y="161" fill="#22d3ee" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle">Full-Stack � Gen AI � Cloud � DevOps</text>
+
+  <!-- Hero title -->
+  <text x="600" y="240" fill="#ffffff" font-family="system-ui,sans-serif" font-size="52" font-weight="700" text-anchor="middle">Engineering</text>
+  <text x="600" y="300" fill="url(#accent)" font-family="system-ui,sans-serif" font-size="52" font-weight="700" text-anchor="middle">intelligent</text>
+  <text x="600" y="360" fill="#ffffff" font-family="system-ui,sans-serif" font-size="52" font-weight="700" text-anchor="middle">digital experiences</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="410" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="18" text-anchor="middle">Full-Stack Software Engineer � Gen AI � Cloud Architecture</text>
+
+  <!-- CTA buttons -->
+  <rect x="420" y="440" width="160" height="44" rx="22" fill="url(#accent)"/>
+  <text x="500" y="468" fill="#050816" font-family="system-ui,sans-serif" font-size="15" font-weight="600" text-anchor="middle">View my work</text>
+  <rect x="600" y="440" width="160" height="44" rx="22" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)"/>
+  <text x="680" y="468" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="15" font-weight="500" text-anchor="middle">Get in touch</text>
+
+  <!-- Stats -->
+  <text x="350" y="560" fill="#ffffff" font-family="system-ui,sans-serif" font-size="28" font-weight="700" text-anchor="middle">15+</text>
+  <text x="350" y="585" fill="#64748b" font-family="system-ui,sans-serif" font-size="12" text-anchor="middle">Projects shipped</text>
+  <text x="600" y="560" fill="#ffffff" font-family="system-ui,sans-serif" font-size="28" font-weight="700" text-anchor="middle">5+</text>
+  <text x="600" y="585" fill="#64748b" font-family="system-ui,sans-serif" font-size="12" text-anchor="middle">Years building</text>
+  <text x="850" y="560" fill="#ffffff" font-family="system-ui,sans-serif" font-size="28" font-weight="700" text-anchor="middle">4</text>
+  <text x="850" y="585" fill="#64748b" font-family="system-ui,sans-serif" font-size="12" text-anchor="middle">Tech domains</text>
+
+  <line x1="200" y1="530" x2="1000" y2="530" stroke="rgba(255,255,255,0.08)"/>
+</svg>
